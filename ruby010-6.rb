@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
-# filename: ruby010-2.rb
-
+# filename: ruby010-6.rb
 require './ruby010-5.rb'
 
 if ARGV.size > 0 then

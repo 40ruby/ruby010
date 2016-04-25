@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 # filename: ruby010-5.rb
-
 require 'json'
 
 def open_file(filename)

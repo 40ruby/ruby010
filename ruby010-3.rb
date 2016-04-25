@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 # filename: ruby010-3.rb
-
 class File_CSV
   def initialize(filename)
     begin
@@ -32,9 +31,5 @@ class File_TSV < File_CSV
   end
 end
 
-class File_SSV < File_CSV
-  def initialize(filename)
-    super
-    @del = ' '
-  end
+class File_SSV < File_TSV
 end

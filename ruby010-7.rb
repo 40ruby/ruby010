@@ -32,11 +32,7 @@ class File_TSV < File_CSV
   end
 end
 
-class File_SSV < File_CSV
-  def initialize(filename)
-    super
-    @del = ' '
-  end
+class File_SSV < File_TSV
 end
 
 class File_JSON < File_CSV

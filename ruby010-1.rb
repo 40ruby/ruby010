@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 # filename: ruby010-1.rb
-
 def open_file(filename)
   begin
     $fp = File.open(filename)
@@ -14,7 +13,6 @@ def read_file(del)
   result = $fp.each_line.map { |line|
     line.chop.split(del)
   }
-
   return result
 end
 
